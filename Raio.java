@@ -19,7 +19,6 @@ public class Raio {
         raio = JOptionPane.showInputDialog("Digie o raio: ");
         int int_raio = Integer.parseInt(raio);
         volume = 4* 3.14 * Math.pow(int_raio, 3)/3;
-        volume1 = 4* 3.14 * int_raio * int_raio * int_raio / 3;
         JOptionPane.showMessageDialog(null, "O Volume é: "+volume);
         
     }
